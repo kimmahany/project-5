@@ -1,7 +1,6 @@
 //jshint esversion: 6
 
 // simple Express.js RESTful API
-
 // initialize
 const port = 8888,
   express = require("express"),
