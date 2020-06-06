@@ -18,7 +18,6 @@ const port = 8888,
 //if the client directory contains an "index.html" web page
 //  it will be displayed as the default document
 app.use(express.static(__dirname + "/client"));
-
 // Parse data from incoming Post requests
 app.use(
   bodyParser.urlencoded({
